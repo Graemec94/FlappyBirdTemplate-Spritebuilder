@@ -17,9 +17,11 @@
 {
     // put update code here
     timeSinceObstacle += delta;
-    if (timeSinceObstacle > 1.0f)
+    if (timeSinceObstacle > 2.0f)
+    {
         [self addObstacle];
-    timeSinceObstacle = 0.0f;
+        timeSinceObstacle = 0.0f;
+    }
 }
     // put new methods here
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
