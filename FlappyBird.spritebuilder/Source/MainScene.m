@@ -180,7 +180,6 @@
                                  2 * cloud.contentSize.width, cloud.position.y);
         }
     }
-}
 
     NSMutableArray *offScreenObstacles = nil;
     
