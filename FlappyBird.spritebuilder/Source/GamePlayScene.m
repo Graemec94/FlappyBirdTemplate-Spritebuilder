@@ -21,7 +21,7 @@
     {
         [self addObstacle];
         timeSinceObstacle = 0.0f;
-    }
+}
 }
     // put new methods here
 - (void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
